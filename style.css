@@ -1,0 +1,38 @@
+input[type="text"] {
+  width: 170px;
+  max-width: 300px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+input {
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+li {
+  margin-bottom: 90px;
+}
